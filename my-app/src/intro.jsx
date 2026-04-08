@@ -1,7 +1,7 @@
 function Mycomponent(){
     return(
         <>
-        <h1>hello Junior</h1>
+        <h1 style={{color:'red'}}>hello Junior</h1>
         </>
     )
 }
