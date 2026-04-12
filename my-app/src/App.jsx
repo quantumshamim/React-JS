@@ -7,6 +7,7 @@ import StudentInfo from './components/StudentInfo'
 import MyDate from './components/Date'
 import MyState from './components/MyState'
 import StudentData from "./components/Studentdata.json"
+import UniqueID from './components/UniqueID'
 
 function App(){
   
@@ -23,6 +24,8 @@ function App(){
           <StudentInfo username = {data.username} number = {data.number} address = {data.address}/>
         )
       )}
+
+      <UniqueID/>
     </>
   )
 }
