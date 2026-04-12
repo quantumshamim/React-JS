@@ -1,9 +1,9 @@
-function StudentInfo(){
+function StudentInfo({username, number, address}){
     return(
         <>
-            <h2>Israt</h2>
-            <p>phone: 0012233654</p>
-            <p>add: Bangladesh</p>
+            <h2>{username}</h2>
+            <p>phone: {number}</p>
+            <p>add: {address}</p>
         </>
     )
 }

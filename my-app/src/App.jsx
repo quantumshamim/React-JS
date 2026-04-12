@@ -6,15 +6,23 @@ import ContactCard from "./components/ReuseComp"
 import StudentInfo from './components/StudentInfo'
 import MyDate from './components/Date'
 import MyState from './components/MyState'
+import StudentData from "./components/Studentdata.json"
 
 function App(){
+  
   return (
     <>
       {/* <ContactCard  name="Shamim" des="I am so delightful" />
-      <ContactCard  name="Bristy" des="She is so delightful" />
-      <StudentInfo/> */}
+      <ContactCard  name="Bristy" des="She is so delightful" /> */}
+      
       {/* <MyDate/> */}
-      <MyState/>
+      {/* <MyState/> */}
+      
+      {StudentData.map(
+        (data)=>(
+          <StudentInfo username = {data.username} number = {data.number} address = {data.address}/>
+        )
+      )}
     </>
   )
 }
