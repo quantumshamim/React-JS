@@ -5,16 +5,16 @@ import './App.css'
 import ContactCard from "./components/ReuseComp"
 import StudentInfo from './components/StudentInfo'
 import MyDate from './components/Date'
+import MyState from './components/MyState'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+function App(){
   return (
     <>
       {/* <ContactCard  name="Shamim" des="I am so delightful" />
       <ContactCard  name="Bristy" des="She is so delightful" />
       <StudentInfo/> */}
-      <MyDate/>
+      {/* <MyDate/> */}
+      <MyState/>
     </>
   )
 }
