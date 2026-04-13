@@ -11,6 +11,7 @@ import UniqueID from './components/UniqueID'
 import NestedMapping from "./components/NestedMapping"
 import MyEvent from './components/EventHandler'
 import OnChange from "./components/EventHandler2"
+import Parents from './components/Parent'
 
 function App(){
   
@@ -32,6 +33,7 @@ function App(){
       <NestedMapping/>
       <MyEvent/>
       <OnChange/>
+      <Parents/>
     </>
   )
 }
