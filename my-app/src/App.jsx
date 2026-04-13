@@ -9,6 +9,8 @@ import MyState from './components/MyState'
 import StudentData from "./components/Studentdata.json"
 import UniqueID from './components/UniqueID'
 import NestedMapping from "./components/NestedMapping"
+import MyEvent from './components/EventHandler'
+import OnChange from "./components/EventHandler2"
 
 function App(){
   
@@ -28,6 +30,8 @@ function App(){
 
       <UniqueID/>
       <NestedMapping/>
+      <MyEvent/>
+      <OnChange/>
     </>
   )
 }
