@@ -12,6 +12,7 @@ import NestedMapping from "./components/NestedMapping"
 import MyEvent from './components/EventHandler'
 import OnChange from "./components/EventHandler2"
 import Parents from './components/Parent'
+import Login from './components/Login/Login'
 
 function App(){
   
@@ -23,17 +24,18 @@ function App(){
       {/* <MyDate/> */}
       {/* <MyState/> */}
       
-      {StudentData.map(
+      {/* {StudentData.map(
         (data)=>(
           <StudentInfo username = {data.username} number = {data.number} address = {data.address}/>
         )
-      )}
+      )} */}
 
-      <UniqueID/>
+      {/* <UniqueID/>
       <NestedMapping/>
       <MyEvent/>
       <OnChange/>
-      <Parents/>
+      <Parents/> */}
+      <Login/>
     </>
   )
 }
