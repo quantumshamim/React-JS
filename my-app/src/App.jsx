@@ -8,6 +8,7 @@ import MyDate from './components/Date'
 import MyState from './components/MyState'
 import StudentData from "./components/Studentdata.json"
 import UniqueID from './components/UniqueID'
+import NestedMapping from "./components/NestedMapping"
 
 function App(){
   
@@ -26,6 +27,7 @@ function App(){
       )}
 
       <UniqueID/>
+      <NestedMapping/>
     </>
   )
 }
