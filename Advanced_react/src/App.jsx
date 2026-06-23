@@ -10,6 +10,7 @@ import ThemeToggler from './Components/Context/Consumer';
 import CountDownTimer from './Components/UseEffect/UseEffect';
 import Counter from './Components/UseReducer/Reducer'
 import MyCounter from './Components/UseCallBack/CallBack';
+import DataFetching from './Components/FetchingData/MyAPI';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
       <CountDownTimer/>
       <Counter/>
       <MyCounter/>
+      <DataFetching/>
     </>
   )
 }
