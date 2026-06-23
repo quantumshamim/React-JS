@@ -11,6 +11,8 @@ import CountDownTimer from './Components/UseEffect/UseEffect';
 import Counter from './Components/UseReducer/Reducer'
 import MyCounter from './Components/UseCallBack/CallBack';
 import DataFetching from './Components/FetchingData/MyAPI';
+import Image from './Components/Image';
+
 
 
 function App() {
@@ -31,6 +33,7 @@ function App() {
       <Counter/>
       <MyCounter/>
       <DataFetching/>
+      <Image/>
     </>
   )
 }
