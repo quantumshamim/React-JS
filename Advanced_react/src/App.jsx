@@ -1,6 +1,7 @@
 import './App.css'
 import Example from "./Components/ReactLifeCycle";
 import Parent from './Components/Memo';
+import MyRef from './Components/Ref';
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <Example color="Yellow"/>
       <Parent/>
+      <MyRef/>
     </>
   )
 }
