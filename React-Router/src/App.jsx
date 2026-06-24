@@ -5,6 +5,7 @@ import About from './Components/About'
 import Contact from './Components/Contact'
 import Signup from './Components/Signup'
 import NavBar from './Components/NavBar'
+import Error from './Components/Error'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <Route path='/About' element={<About />} />
           <Route path='/Contact' element={<Contact />} />
           <Route path='/Signup' element={<Signup />} />
+          <Route path='*' element={<Error />} />
         </Routes>
       </BrowserRouter>
     </>
