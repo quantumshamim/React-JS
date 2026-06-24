@@ -1,4 +1,3 @@
-import React from 'react'
 import Picture from '/img/car2.jpg'
 
 function Image() {
